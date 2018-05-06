@@ -10,7 +10,7 @@ public class AddressBook {
     }
 
     public boolean isSame(String name) {
-        return (this.name == name);
+        return (this.name.equals(name));
         // 이름 배열 안에 있는지 확인 => 있으면 true, 없으면 false
 
     }
@@ -51,7 +51,7 @@ public class AddressBook {
 
     public static void main(String...args) {
         Scanner sc = new Scanner(System.in);
-        AddressBook books [] = new AddressBook[1];
+        AddressBook books [] = new AddressBook[10];
             int count = 0;
 
             while(true) {
