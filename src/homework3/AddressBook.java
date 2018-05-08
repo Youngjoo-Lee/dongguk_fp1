@@ -11,7 +11,7 @@ public class AddressBook {
 
     public boolean isSame(String name) {
         return (this.name.equals(name));
-        // ÀÌ¸§ ¹è¿­ ¾È¿¡ ÀÖ´ÂÁö È®ÀÎ => ÀÖÀ¸¸é true, ¾øÀ¸¸é false
+        // ï¿½Ì¸ï¿½ ï¿½è¿­ ï¿½È¿ï¿½ ï¿½Ö´ï¿½ï¿½ï¿½ È®ï¿½ï¿½ => ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ true, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ false
 
     }
 
@@ -38,9 +38,9 @@ public class AddressBook {
     }
 
     public static void showMenu() {
-        System.out.println("==== Menu ====");
+        System.out.println("====+ Menu =+===");
         System.out.println("1. Add Address");
-        System.out.println("2. Print All");
+        System.out.println("2. PrintAll");
         System.out.println("3. Find By Name");
         System.out.println("4. Quit");
     }
