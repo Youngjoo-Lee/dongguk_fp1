@@ -11,7 +11,6 @@ public class AddressBook {
 
     public boolean isSame(String name) {
         return (this.name.equals(name));
-        // �̸� �迭 �ȿ� �ִ��� Ȯ�� => ������ true, ������ false
 
     }
 
